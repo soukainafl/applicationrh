@@ -1,1 +1,1 @@
-{"salaire":[{"Matricule":1},{"Matricule":2},{"Matricule":3},{"Matricule":4},{"Matricule":5},{"Matricule":6},{"Matricule":7}]}
+[{"Matricule":1,"id_dep":"11a","nom":"a","Prenom":"a","Age":"a","salaire":"a"},{"Matricule":2,"id_dep":"k","nom":"k","Prenom":"k","Age":"k","salaire":"kk"},{"Matricule":3,"id_dep":"j","nom":"j","Prenom":"j","Age":"jj","salaire":"j"}]

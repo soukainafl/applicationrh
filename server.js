@@ -30,14 +30,14 @@ app.post('/salaire',function(req, res){
     var nom = req.body.nom;
     var Prenom = req.body.Prenom;
     var Age = req.body.Age;
-    var salaire = req.body.salaire
+    var salaire = req.body.salaire;
   console.log(Prenom);
 fs.readFile('salaire.json', 'utf-8', function (err,data) {
 	if (err) throw err;
 
 	var arrayOfObjects = JSON.parse(data);
-	arrayOfObjects.salaire.push({
-        Matricule : arrayOfObjects.salaire.length +1,
+	arrayOfObjects.push({
+        Matricule : arrayOfObjects.length +1,
         id_dep: id_dep,
 		nom: nom,
         Prenom: Prenom,
